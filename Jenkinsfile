@@ -54,7 +54,7 @@ pipeline {
             steps {
         	// bcz tomcat take some sec. to display data , so apply some delay here        
                 retry(30) {
-                    sh 'curl --silent http://10.10.204.7:8084/java-web-app/ |  grep tunisia'
+                    sh 'curl --silent http://10.10.204.7:8084/app-java/ |  grep tunisia'
                 }   
             }
         }
