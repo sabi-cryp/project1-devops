@@ -5,7 +5,7 @@ pipeline {
         // Step 1
         stage('SCM') {
                 steps {
-                    //checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/sabi-cryp/devops-mautic']]])
+                    
                       sh 'rm -rf project1-devops'
 
                 // Clone the repository into a new directory
