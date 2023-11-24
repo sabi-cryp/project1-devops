@@ -13,3 +13,4 @@ Stage 4: Upload Artifacts
 
 Stage 5: Deploy the App
 Stage 6: QAT Test
+![image](https://github.com/sabi-cryp/project1-devops/assets/74612485/ba258199-8ae8-424a-8f67-6049e93f599a)
